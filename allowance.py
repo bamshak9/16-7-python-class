@@ -17,13 +17,20 @@ print(remainder)
 
 
 allowance = 2000
+print (f"remaining allowance: ${allowance}")
 allowance -= 400
+print (f"remaining allowance: ${allowance}")
 allowance += 100
+print (f"remaining allowance: ${allowance}")
 allowance -= 250
+print (f"remaining allowance: ${allowance}")
 allowance *= 0.75
+print (f"remaining allowance: ${allowance}")
 allowance *= (2/3)
+print (f"remaining allowance: ${allowance}")
 allowance //= 2
+print (f"remaining allowance: ${allowance}")
 allowance %= 100
-print(allowance)
+print (f"remaining allowance: ${allowance}")
 
 
