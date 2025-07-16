@@ -60,3 +60,14 @@ second_number = float(input("Exponential power: "))
 exponent = float(first_number) ** float(second_number)
 print(f"{first_number} ^ {second_number} = {exponent:.2f}")
 #Exponential function above
+
+
+print("Enter two numbers to perform float division")
+#Asks a user for number
+first_number = float(input("First Number: "))
+#Input for first number
+second_number = float(input("Second Number: "))
+#Input for second number
+floor_div = float(first_number) // float(second_number)
+print(f"{first_number} // {second_number} = {floor_div:.2f}")
+#Floor division function above
